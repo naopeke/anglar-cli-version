@@ -48,3 +48,24 @@ Use a specific version
 ```
 nvm use v16.16.0
 ```
+
+# How to adopt to the existing projects
+```
+npm install --save-dev @angular/cli
+```
+```
+rm -rf node_modules package-lock.json
+npm install
+```
+ng serve
+```
+npx ng serve --open
+```
+Or add npm scripts in package.json
+```
+"scripts": {
+  "start": "ng serve",
+  "build": "ng build",
+  // other scripts
+}
+```
