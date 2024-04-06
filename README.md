@@ -54,6 +54,7 @@ check if angular/cli is in devDependencies in package.json
 ```
 npm install --save-dev @angular/cli
 ```
+delete node_modules folder and package-lock.json, and re-install
 ```
 rm -rf node_modules package-lock.json
 npm install
