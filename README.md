@@ -50,6 +50,7 @@ nvm use v16.16.0
 ```
 
 # How to adopt to the existing projects
+check if angular/cli is in devDependencies in package.json
 ```
 npm install --save-dev @angular/cli
 ```
