@@ -102,19 +102,35 @@ npm -v
 ```
  For ionic 1
  cd ionic1
- nvm use
- nvm install v5.0.0
- npm install -g ionic@1.7.15 
+ nvm install v18.10.0
+ nvm use v18.10.0
+ npm install -g ionic@1.7.15 //version is just an example and it's not correct
  ionic start helloionic1 blank
  cd helloionic1
+
+ npm i @angular/cli@16 //if angular is not installed globally, angular16
+ npx ng version
+
+ npm install -g @ionic/cli // again to configure node
+
  ionic serve
+
+
 
 For ionic 2
  cd ionic2
- nvm use
- nvm install v6.4.0
- npm install -g ionic@beta
+
+ nvm install v20.9.0
+ nvm use v20.9.0
+
+ npm install -g ionic@beta //version is just an example and it's not correct
  ionic start helloionic2 blank --v2 --ts 
  cd helloionic2
+
+ npm i @angular/cli@17
+ npx ng version
+
+ npm install -g @ionic/cli // again to configure node
+
  ionic serve
 ```
