@@ -36,6 +36,11 @@ How to install
 ```
 nvm install v18.13.0
 ```
+If you want to install the latest version of lts...  
+```
+nvm install --lts
+nvm use --lts
+```
 A list of Node.js that you installed
 ```
 nvm ls
